@@ -30,7 +30,7 @@ public:
 		return m_email;
 	}
 
-	void AddValAtPair(const AttValPair& attval);
+	void AddAttValPair(const AttValPair& attval);
 
 	int GetValAtNumPairs() const;
 };

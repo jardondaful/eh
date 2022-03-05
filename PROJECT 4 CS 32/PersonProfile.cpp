@@ -12,14 +12,13 @@
 #include <unordered_map>
 using namespace std;
 
-void PersonProfile::AddValAtPair(const AttValPair& attval)
+void PersonProfile::AddAttValPair(const AttValPair& attval)
 {
 	if (attval.GetName() == m_name && attval.GetEmail() == m_email)
 	{
 		return;
 	}
-	v.push_back(attval);
-	for (int i = 0; i < )
+	m_tree.insert(attribute, value);
 }
 
 int PersonProfile::GetValAtNumPairs() const

@@ -13,7 +13,7 @@
 class AttributeTranslator
 {
 private:
-
+	RadixTree r;
 public:
 	AttributeTranslator()
 	{
@@ -28,4 +28,5 @@ public:
 	bool Load(std::string filename);
 
 	std::vector<AttValPair> FindCompatibleAttValPairs(const AttValPair& source) const;
+
 };
